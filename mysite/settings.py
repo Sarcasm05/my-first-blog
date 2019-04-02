@@ -25,12 +25,7 @@ SECRET_KEY = '$np5goq7q4&fekt(_46gvs03avc(@#ed^91#oytert__0z+ran'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-<<<<<<< HEAD
 ALLOWED_HOSTS = ALLOWED_HOSTS = ['127.0.0.1', 'brdsky.pythonanywhere.com']
-=======
-ALLOWED_HOSTS = ALLOWED_HOSTS = ['brdsky.pythonanywhere.com','127.0.0.1:8000']
->>>>>>> 2c3649fe054d8be7fca0070a616db33b4d3a04be
-
 
 # Application definition
 
