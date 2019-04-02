@@ -25,7 +25,7 @@ SECRET_KEY = '$np5goq7q4&fekt(_46gvs03avc(@#ed^91#oytert__0z+ran'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ALLOWED_HOSTS = ['127.0.0.1', 'Username.pythonanywhere.com']
+ALLOWED_HOSTS = ALLOWED_HOSTS = ['brdsky.pythonanywhere.com','127.0.0.1:8000']
 
 
 # Application definition
@@ -120,3 +120,7 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR,'static')
+
+MEDIA_URL = '/media/'
+STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
